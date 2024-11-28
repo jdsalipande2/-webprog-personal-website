@@ -4,12 +4,41 @@ body {
 
 p {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
 }
 
 h1 {
-    color: black;
+    color: darkblue;
     text-align: center;
-    background-color: black;
-    color: white; 
+    background-color: darkblue;
+    color: yellow; 
   }
+
+h2 {
+    background-color: yellow;
+    color: black; 
+  }
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+tr:nth-child(even) {
+  background-color: white; 
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+
+
+
+
