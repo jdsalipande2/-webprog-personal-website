@@ -46,8 +46,8 @@ tr:nth-child(odd) {
 }
 
 .gallery img {
-  width: 300px; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
+  width: 100px; 
+  height: auto; 
   border: 1px solid #ddd;
   border-radius: 5px;
   transition: transform 0.3s ease;
