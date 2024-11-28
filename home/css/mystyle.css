@@ -1,7 +1,7 @@
 body {
   margin: 0; 
   height: 100vh; 
-  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/feature/css/home/White%20Background.jpg?raw=true');
+  background-image: url('https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/White%20Background.jpg');
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
@@ -12,7 +12,7 @@ p {
 }
 
 h1 {
-  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/main/home/h1%20Background.png?raw=true');
+  background-image: url('https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/h1%20Background.png');
   background-size: cover; 
   background-position: center; 
   color: yellow; 
