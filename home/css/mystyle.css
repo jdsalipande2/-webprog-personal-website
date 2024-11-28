@@ -1,24 +1,24 @@
 body {
   margin: 0; 
   height: 100vh; 
-  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/feature/css/home/Background.jpg?raw=true');
+  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/feature/css/home/White%20Background.jpg?raw=true');
   background-size: cover; 
   background-position: center; 
   background-attachment: fixed; 
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
-  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/feature/css/home/h1%20Background.jpg?raw=true');
+  background-image: url('https://github.com/jdsalipande2/-webprog-personal-website/blob/main/home/h1%20Background.png?raw=true');
   background-size: cover; 
   background-position: center; 
   color: yellow; 
   text-align: center; 
   padding: 100px 0; 
-  font-size: 5em; 
+  font-size: 3em; 
   margin: 0; 
 }
 
