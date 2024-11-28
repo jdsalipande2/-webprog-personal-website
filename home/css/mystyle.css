@@ -31,13 +31,41 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: white; 
+  background-color: lightgray; 
 }
 
 tr:nth-child(odd) {
   background-color: white;
 }
 
+div.gallery {
+  margin: 10px;
+  border: 1px solid darkblue;
+  float: left;
+  width: 250px; 
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid darkblue;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 10px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
