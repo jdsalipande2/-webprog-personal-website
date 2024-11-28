@@ -1,5 +1,10 @@
 body {
-  background-image: url("https://img.freepik.com/free-vector/multicolor-abstract-background_1123-53.jpg");
+  margin: 0; 
+  height: 100vh; 
+  background-image: url('https://img.freepik.com/free-vector/multicolor-abstract-background_1123-53.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
 }
 
 p {
