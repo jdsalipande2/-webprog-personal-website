@@ -1,5 +1,10 @@
 body {
-  background-color: yellow;
+  margin: 0; 
+  height: 100vh; 
+  background-image: url('https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/White%20Background.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-attachment: fixed; 
 }
 
 p {
@@ -27,11 +32,13 @@ th {
     color: white;
     padding: 10px;
     border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 td {
   padding: 10px;
   border: 1px solid black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 tr:nth-child(even) {
