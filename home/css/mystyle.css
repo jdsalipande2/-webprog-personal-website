@@ -14,15 +14,16 @@ p {
 h1 {
   background-image: url('https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/h1%20Background.png');
   background-size: contain; 
-  background-repeat: no-repeat; 
-  background-position: center; 
+  background-repeat: no-repeat;
+  background-position: center;
   color: yellow;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  padding: 80px 20px; 
+  padding: 20px 0; 
   font-size: 3em;
   margin: 0;
   line-height: 1.2; 
+  height: 200px; 
 }
 
 h2 {
