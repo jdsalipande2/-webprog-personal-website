@@ -38,42 +38,35 @@ tr:nth-child(odd) {
   background-color: white;
 }
 
-div.gallery {
-  margin: 10px;
-  border: 1px solid grey;
-  float: left;
-  width: 250px; 
-  text-align: center;
+.gallery {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-bottom: 30px; 
 }
 
-div.gallery:hover {
-  border: 1px solid darkblue;
-}
-
-div.gallery img {
-  width: 200%; 
-  height: 200px; 
-  object-fit: cover; 
-  display: block; 
-}
-
-div.gallery img {
-  width: 100%;
+.gallery img {
+  width: auto; 
+  max-width: 80%; 
   height: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: transform 0.3s ease; 
 }
 
-div.desc {
-  padding: 10px;
-  font-size: 14px;
-  background-color: white;
+.gallery img:hover {
+  transform: scale(1.05); 
+  border-color: #aaa; 
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+.gallery .desc {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+  max-width: 80%; 
+  text-align: center; 
 }
 
-
-
-
+.clearfix {
+  clear: both; 
+}
