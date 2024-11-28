@@ -12,4 +12,9 @@ p {
   font-size: 20px;
 }
 
-<h1 style="background-color:black;">Personal Profile Webpage</h1>
+h1 {
+    color: black;
+    text-align: center;
+    background-color: black;
+    color: white; 
+  }
