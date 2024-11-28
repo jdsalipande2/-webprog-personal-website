@@ -46,7 +46,7 @@ tr:nth-child(odd) {
 }
 
 .gallery img {
-  width: 100px; 
+  width: 10px; 
   height: auto; 
   border: 1px solid #ddd;
   border-radius: 5px;
