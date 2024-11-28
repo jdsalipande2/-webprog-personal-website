@@ -13,18 +13,20 @@ p {
 
 h1 {
   background-image: url('https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/h1%20Background.png');
-  background-size: cover; 
+  background-size: contain; 
+  background-repeat: no-repeat; 
   background-position: center; 
-  color: yellow; 
-  text-align: center; 
-  padding: 100px 0; 
-  font-size: 3em; 
-  margin: 0; 
+  color: yellow;
+  text-align: center;
+  padding: 50px 0; 
+  font-size: 3em;
+  margin: 0;
 }
 
 h2 {
     background-color: yellow;
     color: black; 
+    font-family: 'Courier New', Courier, monospace;
   }
 
 th {
@@ -47,6 +49,15 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background-color: white;
+}
+
+ol {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+  font-family: inherit; 
+  margin-bottom: 10px; 
 }
 
 div {
