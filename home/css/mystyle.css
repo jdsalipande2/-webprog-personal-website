@@ -40,7 +40,7 @@ tr:nth-child(odd) {
 
 div.gallery {
   margin: 10px;
-  border: 1px solid darkblue;
+  border: 1px solid grey;
   float: left;
   width: 250px; 
   text-align: center;
@@ -48,6 +48,13 @@ div.gallery {
 
 div.gallery:hover {
   border: 1px solid darkblue;
+}
+
+div.gallery img {
+  width: 100%; 
+  height: 200px; 
+  object-fit: cover; 
+  display: block; 
 }
 
 div.gallery img {
