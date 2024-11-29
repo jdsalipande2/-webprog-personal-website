@@ -100,7 +100,7 @@ img {
 }
 
 a:link, a:visited {
-  background-color: lightblue;   /* Dark blue background */
+  background-color: blue;   /* Dark blue background */
   color: white;                 /* White text */
   padding: 14px 25px;           /* Padding around the link text */
   text-align: center;           /* Center the text */
