@@ -45,7 +45,7 @@ h2 {
   background-size: cover; /* Ensures the image covers the entire background area */
   background-repeat: no-repeat; /* Prevents repeating the image */
   color: black; /* Text color */
-  text-shadow: 2px 2px 5px blue;
+  text-shadow: 2px 2px 5px darkblue;
   font-family: "Times New Roman", Times, serif;
   padding: 20px 80px; /* Adds space inside the h2 element (left and right padding for the text) */
   font-size: 2em; /* Font size */
@@ -97,4 +97,18 @@ img {
   margin-left: auto;  
   margin-right: auto; 
   margin-bottom: 10px; 
+}
+
+a:link, a:visited {
+  background-color: lightblue;   /* Dark blue background */
+  color: white;                 /* White text */
+  padding: 14px 25px;           /* Padding around the link text */
+  text-align: center;           /* Center the text */
+  text-decoration: none;        /* Removes the underline */
+  display: inline-block;        /* Makes the anchor tag behave like a block element */
+  border-radius: 5px;           /* Optional: rounded corners */
+}
+
+a:hover, a:active {
+  background-color: darkblue;  /* Change background color on hover or active */
 }
