@@ -9,7 +9,7 @@ body {
 }
 
 p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h1 {
   text-align: center; /* Centers the text */
   padding: 50px 0; /* Adjust padding to make the text more spaced out vertically */
   font-size: 3em; /* Font size */
+  font-family: 'Copperplate', 'Copperplate Gothic Light', fantasy;
   margin: 0; /* Removes default margin */
   height: 100px; /* Makes the header longer by setting a fixed height */
 }
@@ -30,9 +31,9 @@ h2 {
   background-size: cover; /* Ensures the image covers the entire background area */
   background-repeat: no-repeat; /* Prevents repeating the image */
   color: black; /* Text color */
-  text-align: center; /* Centers the text */
+  font-family: 'Copperplate', 'Copperplate Gothic Light', fantasy;
   padding: 20px 0; /* Adjust padding to make the text more spaced out vertically */
-  font-size: 1em; /* Font size */
+  font-size: 2em; /* Font size */
   margin: 20px 0; /* Adds space above h2 */
   height: 50px; /* Makes the header longer by setting a fixed height */  
   }
@@ -42,13 +43,13 @@ th {
     color: white;
     padding: 10px;
     border: 1px solid black;
-    font-family: 'Courier New', Courier, monospace;
-}
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
 
 td {
   padding: 10px;
   border: 1px solid black;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 tr:nth-child(even) {
@@ -60,7 +61,7 @@ tr:nth-child(odd) {
 }
 
 ol {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 li {
