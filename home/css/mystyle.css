@@ -32,14 +32,11 @@ h2 {
   background-repeat: no-repeat; /* Prevents repeating the image */
   color: black; /* Text color */
   font-family: "Times New Roman", Times, serif;
-  padding: 20px 0; /* Adjust padding to make the text more spaced out vertically */
+  padding: 20px 80px; /* Adds space inside the h2 element (left and right padding for the text) */
   font-size: 2em; /* Font size */
-  margin: 20px 0; /* Adds space above h2 */
-  height: 50px; /* Makes the header longer by setting a fixed height */  
-  margin-right: 80px;
-  margin-left: 80px;
-  }
-  }
+  margin: 20px 0; /* Adds space above and below h2 */
+  height: 50px; /* Sets a fixed height for the header */
+}
 
 th {
     background-color: darkblue;
