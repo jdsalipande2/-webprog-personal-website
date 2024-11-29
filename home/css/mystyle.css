@@ -22,7 +22,7 @@ h1 {
   padding: 150px 0; /* Adjust padding to make the text more spaced out vertically */
   font-size: 3em; /* Font size */
   margin: 0; /* Removes default margin */
-  height: 500px; /* Makes the header longer by setting a fixed height */
+  height: 300px; /* Makes the header longer by setting a fixed height */
 }
 
 h2 {
