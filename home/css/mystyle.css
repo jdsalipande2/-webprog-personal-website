@@ -14,7 +14,8 @@ p.aboutme {
 }
 
 p.desc {
-  border: 2px solid yellow;
+  border: 8px solid darkblue;
+  background-color: lightblue;
   border-radius: 5px;
   padding: 20px;
   width: fit-content;
