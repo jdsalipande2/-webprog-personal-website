@@ -14,14 +14,15 @@ p {
 
 h1 {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
-  background-size: contain; /* This ensures the whole image is visible without cropping */
-  background-position: center center; /* Keeps the image centered */
-  background-repeat: no-repeat; /* Prevents image repetition */
+  background-size: cover; /* Ensures the image covers the entire background area */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
   color: yellow; /* Text color */
   text-align: center; /* Centers the text */
-  padding: 100px 0; /* Adjust padding as needed */
+  padding: 150px 0; /* Adjust padding to make the text more spaced out vertically */
   font-size: 3em; /* Font size */
   margin: 0; /* Removes default margin */
+  height: 500px; /* Makes the header longer by setting a fixed height */
 }
 
 h2 {
