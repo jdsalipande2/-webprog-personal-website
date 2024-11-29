@@ -19,7 +19,7 @@ h1 {
   background-repeat: no-repeat; /* Prevents repeating the image */
   color: yellow; /* Text color */
   text-align: center; /* Centers the text */
-  padding: 150px 0; /* Adjust padding to make the text more spaced out vertically */
+  padding: 80px 0; /* Adjust padding to make the text more spaced out vertically */
   font-size: 3em; /* Font size */
   margin: 0; /* Removes default margin */
   height: 300px; /* Makes the header longer by setting a fixed height */
