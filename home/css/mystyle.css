@@ -32,8 +32,8 @@ h2 {
   color: black; /* Text color */
   text-align: center; /* Centers the text */
   padding: 20px 0; /* Adjust padding to make the text more spaced out vertically */
-  font-size: 3em; /* Font size */
-  margin: 20px 0 0 0; /* Adds space above h2 */
+  font-size: 1em; /* Font size */
+  margin: 20px 0; /* Adds space above h2 */
   height: 50px; /* Makes the header longer by setting a fixed height */  
   }
 
