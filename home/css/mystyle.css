@@ -25,6 +25,17 @@ p.desc {
   margin-bottom: 20px; /* Adds space below the paragraph */
 }
 
+@keyframes colorChange {
+  0% {
+    color: white;  /* Initial text color */
+  }
+  50% {
+    color: yellow;  /* Midpoint color */
+  }
+  100% {
+    color: black;  /* Final text color */
+  }
+}
 
 h1 {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
@@ -38,6 +49,11 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   margin: 0; /* Removes default margin */
   height: 100px; /* Makes the header longer by setting a fixed height */
+
+  animation-name: colorChange;  /* Apply the text color animation */
+  animation-duration: 4s;  /* Duration of the animation */
+  animation-timing-function: ease-in-out;  /* Smooth transition */
+  animation-iteration-count: infinite;  /* Infinite loop of the animation */
 }
 
 h2 {
