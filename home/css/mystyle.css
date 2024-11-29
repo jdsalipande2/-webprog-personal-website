@@ -8,11 +8,17 @@ body {
   height: 100vh; /* Ensures the background takes the full height */
 }
 
-p {
+p.aboutme {
   font-family: 'Helvetica', 'Arial', sans-serif;
-  text-align: center; /* Centers the text */
-  margin-bottom: 15px; 
+  text-align: center;
 }
+
+p.desc {
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
 
 h1 {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
