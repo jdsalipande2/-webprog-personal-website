@@ -14,6 +14,7 @@ p.aboutme {
 }
 
 p.desc {
+  font-family: 'Helvetica', 'Arial', sans-serif;
   border: 8px solid darkblue;
   background-color: lightblue;
   border-radius: 5px;
@@ -44,6 +45,7 @@ h2 {
   background-size: cover; /* Ensures the image covers the entire background area */
   background-repeat: no-repeat; /* Prevents repeating the image */
   color: black; /* Text color */
+  text-shadow: 2px 2px 5px blue;
   font-family: "Times New Roman", Times, serif;
   padding: 20px 80px; /* Adds space inside the h2 element (left and right padding for the text) */
   font-size: 2em; /* Font size */
