@@ -100,8 +100,8 @@ img {
 }
 
 a:link, a:visited {
-  background-color: blue;   /* Dark blue background */
-  color: white;                 /* White text */
+  background-color: yellow;   /* Dark blue background */
+  color: black;                 /* White text */
   padding: 14px 25px;           /* Padding around the link text */
   text-align: center;           /* Center the text */
   text-decoration: none;        /* Removes the underline */
@@ -111,4 +111,6 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: darkblue;  /* Change background color on hover or active */
+  color: white;                 /* White text */
+
 }
