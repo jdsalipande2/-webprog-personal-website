@@ -13,7 +13,15 @@ p {
 }
 
 h1 {
-  
+  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
+  background-size: contain; /* This ensures the whole image is visible without cropping */
+  background-position: center center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  color: yellow; /* Text color */
+  text-align: center; /* Centers the text */
+  padding: 100px 0; /* Adjust padding as needed */
+  font-size: 3em; /* Font size */
+  margin: 0; /* Removes default margin */
 }
 
 h2 {
