@@ -26,7 +26,16 @@ h1 {
 }
 
 h2 {
-    
+  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h2%20Background.jpg");
+  background-size: cover; /* Ensures the image covers the entire background area */
+  background-position: center center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  color: black; /* Text color */
+  text-align: center; /* Centers the text */
+  padding: 50px 0; /* Adjust padding to make the text more spaced out vertically */
+  font-size: 3em; /* Font size */
+  margin: 0; /* Removes default margin */
+  height: 50px; /* Makes the header longer by setting a fixed height */  
   }
 
 th {
