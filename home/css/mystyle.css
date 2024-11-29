@@ -64,15 +64,16 @@ tr:nth-child(odd) {
 
 ol {
   font-family: 'Helvetica', 'Arial', sans-serif;
-  text-align: left; /* Keeps the text alignment inside the list items natural */
-  display: inline-block; /* Makes the list shrink to fit its content */
-  margin: 0 auto; /* Centers the entire list horizontally */
+  list-style-position: inside; /* Ensures numbers are inside the content block */
+  text-align: center; /* Centers the content of the list */
+  margin: 0 auto; /* Centers the list horizontally in its container */
+  padding: 0; /* Removes default padding from the list */
+  width: fit-content; /* Shrinks the list to fit its content */
 }
 
 li {
-  font-family: inherit; 
+  font-family: inherit;
   margin-bottom: 10px; /* Adds spacing between list items */
-  text-align: left; /* Aligns the text naturally within the list items */
 }
 
 div {
