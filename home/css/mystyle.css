@@ -1,11 +1,11 @@
 body {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/Background.jpg");
-  background-size: cover; /* Ensures the image covers the entire body */
-  background-position: center center; /* Centers the image */
-  background-attachment: fixed; /* Keeps the background fixed when scrolling */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  margin: 0; /* Removes default margin */
-  height: 100vh; /* Ensures the background takes the full height */
+  background-size: cover; 
+  background-position: center center; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat; 
+  margin: 0; 
+  height: 100vh; 
 }
 
 p.aboutme {
@@ -22,51 +22,51 @@ p.desc {
   width: fit-content;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 20px; /* Adds space below the paragraph */
+  margin-bottom: 20px; 
 }
 
 @keyframes colorChange {
   0% {
-    color: white;  /* Initial text color */
+    color: white; 
   }
   50% {
-    color: yellow;  /* Midpoint color */
+    color: yellow;  
   }
   100% {
-    color: black;  /* Final text color */
+    color: black;  
   }
 }
 
 h1 {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
-  background-size: cover; /* Ensures the image covers the entire background area */
-  background-position: center center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents repeating the image */
-  color: yellow; /* Text color */
-  text-align: center; /* Centers the text */
-  padding: 50px 0; /* Adjust padding to make the text more spaced out vertically */
-  font-size: 3em; /* Font size */
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat; 
+  color: yellow; 
+  text-align: center;
+  padding: 50px 0; 
+  font-size: 3em; 
   font-family: "Times New Roman", Times, serif;
-  margin: 0; /* Removes default margin */
-  height: 100px; /* Makes the header longer by setting a fixed height */
+  margin: 0; 
+  height: 100px; 
 
-  animation-name: colorChange;  /* Apply the text color animation */
-  animation-duration: 4s;  /* Duration of the animation */
-  animation-timing-function: ease-in-out;  /* Smooth transition */
-  animation-iteration-count: infinite;  /* Infinite loop of the animation */
+  animation-name: colorChange;  
+  animation-duration: 4s;  
+  animation-timing-function: ease-in-out;  
+  animation-iteration-count: infinite;  
 }
 
 h2 {
   background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h2%20Background.jpg");
-  background-size: cover; /* Ensures the image covers the entire background area */
-  background-repeat: no-repeat; /* Prevents repeating the image */
-  color: black; /* Text color */
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  color: black; 
   text-shadow: 2px 2px 5px darkblue;
   font-family: "Times New Roman", Times, serif;
-  padding: 20px 80px; /* Adds space inside the h2 element (left and right padding for the text) */
-  font-size: 2em; /* Font size */
-  margin: 20px 0; /* Adds space above and below h2 */
-  height: 50px; /* Sets a fixed height for the header */
+  padding: 20px 80px; 
+  font-size: 2em; 
+  margin: 20px 0; 
+  height: 50px; 
 }
 
 th {
@@ -93,15 +93,15 @@ tr:nth-child(odd) {
 
 ol {
   font-family: 'Helvetica', 'Arial', sans-serif;
-  margin: 0 80px; /* Aligns with the same margin as h2 */
-  padding: 0; /* Removes unnecessary padding */
-  text-align: left; /* Ensures text and numbers align properly */
+  margin: 0 80px; 
+  padding: 0; 
+  text-align: left; 
 }
 
 li {
-  margin-bottom: 10px; /* Adds spacing between list items */
-  font-family: inherit; /* Inherits the font from <ol> */
-  text-align: left; /* Keeps text aligned to the left */
+  margin-bottom: 10px; 
+  font-family: inherit; 
+  text-align: left; 
 }
 
 div {
@@ -116,17 +116,29 @@ img {
 }
 
 a:link, a:visited {
-  background-color: yellow;   /* Dark blue background */
-  color: black;                 /* White text */
-  padding: 14px 25px;           /* Padding around the link text */
-  text-align: center;           /* Center the text */
-  text-decoration: none;        /* Removes the underline */
-  display: inline-block;        /* Makes the anchor tag behave like a block element */
-  border-radius: 5px;           /* Optional: rounded corners */
+  background-color: yellow;   
+  color: black;                 
+  padding: 14px 25px;          
+  text-align: center;           
+  text-decoration: none;        
+  display: inline-block;      
+  border-radius: 5px;        
 }
 
 a:hover, a:active {
-  background-color: darkblue;  /* Change background color on hover or active */
-  color: white;                 /* White text */
+  background-color: darkblue;  
+  color: white;                 
 
+}
+
+img:hover {
+  filter: brightness(0.8); 
+  transform: scale(1.1); 
+  transition: all 0.3s ease; 
+}
+
+img {
+  display: block; 
+  margin: 20px auto; 
+  transition: all 0.3s ease; 
 }
