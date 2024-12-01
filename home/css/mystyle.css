@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/Background.jpg");
+  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/images/Background-2.jpg");
   background-size: cover; 
   background-position: center center; 
   background-attachment: fixed; 
@@ -38,7 +38,7 @@ p.desc {
 }
 
 h1 {
-  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h1%20Background.jpg");
+  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/images/h1%20Background-2.jpg");
   background-size: cover; 
   background-position: center center;
   background-repeat: no-repeat; 
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/feature/css/home/h2%20Background.jpg");
+  background-image: url("https://raw.githubusercontent.com/jdsalipande2/-webprog-personal-website/refs/heads/main/home/images/h2%20Background.jpg");
   background-size: cover; 
   background-repeat: no-repeat; 
   color: black; 
