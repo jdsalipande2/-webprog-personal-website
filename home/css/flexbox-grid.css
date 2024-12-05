@@ -1,11 +1,13 @@
 .item1 { grid-area: header; }
 .item2 { grid-area: main; }
+.item3 { grid-area: footer; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
     'header header header header header header'
-    'main main main main main main';
+    'main main main main main main'
+    'footer footer footer footer footer footer'; 
   gap: 10px;
   background-color: #2196F3;
   padding: 10px;
@@ -20,26 +22,18 @@
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
   background-color: DodgerBlue;
 }
 
 .flex-container > div {
   background-color: #f1f1f1;
-  width: 100px;
-  margin: 10px;
+  width: 30%;
+  margin: 10px 0;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  padding: 10px;
 }
-
-/* Font size for the <p> elements under About Me, Education & Achievements, and College Program */
-.flex-container .profile-info p {
-  font-size: 30px; /* Same size as list items */
-}
-
-/* Font size for list items (IT Experience, Hobbies, Goals) */
-.flex-container ul {
-  font-size: 30px; /* Same size for the list items */
-}
-
