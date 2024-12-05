@@ -1,120 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    line-height: 1.6;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    background-color: #f9f9f9;
+.item1 { grid-area: header; }
+.item2 { grid-area: main; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main';
+ 
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
 
-h1 {
-    grid-column: span 3;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 10px;
-    background-color: #f4f4f4;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-/* Header and Section Styles */
-section {
-    padding: 20px;
-    background: #ffffff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-section > p, section > table {
-    width: 100%;
-}
-
-/* About Section */
-.about-section {
-    text-align: center;
-}
-
-/* Education Section */
-.education-section table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-.education-section th, .education-section td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-}
-
-.education-section th {
-    background-color: #f4f4f4;
-}
-
-/* Course Section */
-.course-section ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-/* IT Experience Section */
-.it-experience-section ul {
-    list-style-type: square;
-    padding-left: 20px;
-}
-
-/* Hobbies & Interests Section */
-.hobbies-section ul {
-    list-style-type: circle;
-    padding-left: 20px;
-}
-
-/* Goals Section */
-.goals-section {
-    text-align: left;
-}
-
-/* Picture Gallery */
-.picture-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 10px;
-}
-
-.picture-gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-}
-
-.picture-gallery p {
-    text-align: center;
-    margin-top: 5px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    body {
-        grid-template-columns: 1fr;
-    }
-
-    section {
-        text-align: center;
-    }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
 }
