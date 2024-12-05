@@ -4,114 +4,117 @@ body {
     padding: 0;
     box-sizing: border-box;
     line-height: 1.6;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
 }
 
 h1 {
+    grid-column: span 3;
     text-align: center;
     margin-bottom: 20px;
 }
 
 h2 {
-    margin: 20px 0 10px;
     text-align: center;
+    margin-bottom: 10px;
     background-color: #f4f4f4;
     padding: 10px;
     border: 1px solid black;
+    border-radius: 5px;
 }
 
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-/* Layout Styles */
-body {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
+/* Header and Section Styles */
 section {
     padding: 20px;
     background: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Table Styles */
-table {
+section > p, section > table {
     width: 100%;
+}
+
+/* About Section */
+.about-section {
+    text-align: center;
+}
+
+/* Education Section */
+.education-section table {
     border-collapse: collapse;
-    margin: 10px 0;
+    width: 100%;
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
+.education-section th, .education-section td {
     border: 1px solid black;
+    padding: 8px;
+    text-align: left;
 }
 
-th {
+.education-section th {
     background-color: #f4f4f4;
 }
 
-/* Image and Profile Section */
-.profile-section {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px;
+/* Course Section */
+.course-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
 }
 
-.profile-section img {
-    border-radius: 50%;
-    max-width: 200px;
-    height: auto;
-    flex-shrink: 0;
+/* IT Experience Section */
+.it-experience-section ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
 
-.profile-details p {
-    margin: 0;
+/* Hobbies & Interests Section */
+.hobbies-section ul {
+    list-style-type: circle;
+    padding-left: 20px;
 }
 
-/* Gallery Section */
-.gallery {
+/* Goals Section */
+.goals-section {
+    text-align: left;
+}
+
+/* Picture Gallery */
+.picture-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
 }
 
-.gallery img {
+.picture-gallery img {
     width: 100%;
     height: auto;
-    border: 1px solid #ddd;
     border-radius: 5px;
+    border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
-.gallery p {
+.picture-gallery p {
     text-align: center;
-    margin: 10px 0 0;
+    margin-top: 5px;
 }
 
-/* Responsive Adjustments */
+/* Responsive Design */
 @media (max-width: 768px) {
     body {
         grid-template-columns: 1fr;
     }
 
-    table, th, td {
-        font-size: 14px;
-    }
-
-    .profile-section {
-        flex-direction: column;
-        align-items: flex-start;
+    section {
+        text-align: center;
     }
 }
