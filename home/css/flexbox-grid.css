@@ -1,60 +1,45 @@
 .item1 { grid-area: header; }
-    .item2 { grid-area: main; }
+.item2 { grid-area: main; }
 
-    .grid-container {
-      display: grid;
-      grid-template-areas:
-        'header header header header header header'
-        'main main main main main main';
-      gap: 10px;
-      background-color: #2196F3;
-      padding: 10px;
-    }
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'main main main main main main';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
 
-    .grid-container > div {
-      background-color: rgba(255, 255, 255, 0.8);
-      text-align: center;
-      padding: 20px 0;
-      font-size: 30px;
-    }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
 
-    .flex-container {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 10px;
-      background-color: DodgerBlue;
-    }
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
 
-    .flex-container > div {
-      background-color: #f1f1f1;
-      width: 30%;
-      margin: 10px 0;
-      text-align: center;
-      line-height: 75px;
-      font-size: 30px;
-      padding: 10px;
-    }
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 
-    .picture-gallery {
-      display: flex;
-      justify-content: center;
-      background-color: DodgerBlue;
-      width: 100%; 
-      padding: 20px;
-    }
+/* Font size for the <p> elements under About Me, Education & Achievements, and College Program */
+.flex-container .profile-info p {
+  font-size: 30px; /* Same size as list items */
+}
 
-    .picture-gallery > div {
-      text-align: center;
-      width: 100%; 
-    }
+/* Font size for list items (IT Experience, Hobbies, Goals) */
+.flex-container ul {
+  font-size: 30px; /* Same size for the list items */
+}
 
-    .flex-container ol {
-      text-align: left; 
-      padding-left: 20px;
-    }
-
-    .flex-container li {
-      font-size: 18px;
-      line-height: 1.6;
-    }
