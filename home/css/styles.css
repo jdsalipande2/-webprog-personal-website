@@ -77,7 +77,8 @@ body {
   text-align: center;
   color: var(--light-color);
   padding: 20px;
-  overflow: hidden; 
+  overflow: hidden;
+  background-color: #000 
 }
 
 .video-background {
