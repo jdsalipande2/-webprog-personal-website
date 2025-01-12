@@ -121,6 +121,11 @@
         border-color: var(--light-color);
     }
 }
+.masthead-content .name {
+    font-size: 70px;
+    font-weight: 700;
+    font-style: italic;
+}
  .btn-outline {
      margin-top: 20px;
      padding: 10px 20px;
