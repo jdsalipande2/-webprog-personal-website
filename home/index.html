@@ -212,30 +212,30 @@
       </div>
       <!-- Service Section -->
       <div class="fade-in">
-         <div id="services">
-            <section class="services">
-               <h2>Services</h2>
-               <div class="service-grid">
-                  <div class="service-item" v-for="(service, index) in services" :key="`service-${index}`">
-                     <div class="service-content">
-                        <img v-if="service.icon && service.icon.trim() !== ''"
-                           :src="service.icon || 'fallback-icon.png'"
-                           :alt="service.title || 'Service Icon'"
-                           class="service-icon"
-                           src="fallback-icon.png"
-                           alt="Service Icon">
-                        <h3 class="service-title">{{ service.title }}</h3>
-                     </div>
-                     <div class="service-hover-content">
-                        <ul>
-                           <li v-for="(detail, i) in service.details" :key="i">{{ detail }}</li>
-                        </ul>
-                     </div>
+   <div id="services">
+      <section class="services">
+         <h2>Services</h2>
+         <div class="service-grid">
+            <template v-for="service in services" :key="service.title">
+               <div class="service-item">
+                  <div class="service-content">
+                     <img v-if="service.icon && service.icon.trim() !== ''"
+                        :src="service.icon || 'fallback-icon.png'"
+                        :alt="service.title || 'Service Icon'"
+                        class="service-icon">
+                     <h3 class="service-title">{{ service.title }}</h3>
+                  </div>
+                  <div class="service-hover-content">
+                     <ul>
+                        <li v-for="(detail, i) in service.details" :key="i">{{ detail }}</li>
+                     </ul>
                   </div>
                </div>
-            </section>
+            </template>
          </div>
-      </div>
+      </section>
+   </div>
+</div>
       <!-- Vue Script -->
       <script src="https://cdn.jsdelivr.net/npm/vue@3"></script>
       <!-- Portfolio Section -->
