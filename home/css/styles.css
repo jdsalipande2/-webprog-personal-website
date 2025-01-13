@@ -486,34 +486,33 @@
    height: 100%;
    background: rgba(0, 0, 0, 0.8);
    justify-content: center;
-   align-items: center;
+   align-items: flex-start; /* Align content at the top */
+   overflow-y: auto; /* Enable scrolling for the entire lightbox */
    z-index: 1000;
+   padding: 20px; /* Add padding for spacing around content */
+   box-sizing: border-box;
 }
 .lightbox-content {
    position: relative;
    max-width: 90%;
-   max-height: 90%;
+   margin: auto;
    text-align: center;
    color: white;
    display: flex;
    flex-direction: column;
    align-items: center;
-   overflow: hidden;
 }
 .lightbox img {
    max-width: 100%;
-   max-height: 60%; 
+   margin-bottom: 10px;
+   object-fit: contain; /* Ensure the image scales nicely */
 }
 .lightbox-description {
-   margin-top: 10px;
    font-size: 1rem;
-   max-height: 30%; /* Restrict height */
-   overflow-y: auto; /* Enable vertical scrolling if needed */
    padding: 10px;
-   text-align: left;
+   text-align: center;
    width: 100%;
    box-sizing: border-box;
-   background: rgba(0, 0, 0, 0.7); /* Slight background for readability */
    border-radius: 5px;
 }
 /* Scrollbar */
@@ -527,6 +526,7 @@
 .lightbox-description::-webkit-scrollbar-thumb:hover {
    background: #555;
 }
+
 .lightbox-close {
    position: absolute;
    top: 10px;
@@ -535,8 +535,20 @@
    color: white;
    cursor: pointer;
 }
+
 /* Fade-In Animation */
 .fade-in {
+   animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+   from {
+      opacity: 0;
+   }
+   to {
+      opacity: 1;
+   }
+}
 /* Contact Section */
  .contact {
      color: #fff;
