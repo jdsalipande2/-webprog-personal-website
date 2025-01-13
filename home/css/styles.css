@@ -507,12 +507,13 @@
 .lightbox-description {
    margin-top: 10px;
    font-size: 1rem;
-   max-height: 30%; 
-   overflow-y: auto;
+   max-height: 30%; /* Restrict height */
+   overflow-y: auto; /* Enable vertical scrolling if needed */
    padding: 10px;
-   text-align: center;
+   text-align: left;
    width: 100%;
    box-sizing: border-box;
+   background: rgba(0, 0, 0, 0.7); /* Slight background for readability */
    border-radius: 5px;
 }
 /* Scrollbar */
