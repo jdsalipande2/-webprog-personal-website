@@ -111,6 +111,36 @@ const servicesApp = Vue.createApp({
 
 servicesApp.mount("#services");
 
+// Lightbox functionality
+document.addEventListener('DOMContentLoaded', () => {
+   const portfolioItems = document.querySelectorAll('.portfolio-item img');
+   const lightbox = document.getElementById('lightbox');
+   const lightboxImg = document.getElementById('lightbox-img');
+   const lightboxDescription = document.getElementById('lightbox-description');
+   const lightboxClose = document.querySelector('.lightbox-close');
+
+   // Open lightbox
+   portfolioItems.forEach(item => {
+      item.addEventListener('click', () => {
+         lightbox.style.display = 'flex';
+         lightboxImg.src = item.src;
+         lightboxDescription.innerHTML = item.dataset.description;
+      });
+   });
+
+   // Close lightbox
+   lightboxClose.addEventListener('click', () => {
+      lightbox.style.display = 'none';
+   });
+
+   // Close lightbox on outside click
+   lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+         lightbox.style.display = 'none';
+      }
+   });
+});
+
 // Vue app (for contact form)
 const contactApp = Vue.createApp({
     data() {
